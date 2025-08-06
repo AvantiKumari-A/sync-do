@@ -1,14 +1,20 @@
-# Task Management App
+# Do It - To Do App
 
 A modern React Native task management application built with Expo, featuring a beautiful UI and intuitive user experience.
 
+# Info
+
+**This project is a part of a hackathon run by [https://www.katomaran.com](https://www.katomaran.com)**
+
 # 📱 Download APK
 
-**Latest APK Build**: Download TodoAppMobile.apk
+**Latest APK Build**: [Download DoIt - ToDoAppMobile.apk](https://expo.dev/accounts/avanti14/projects/bolt-expo-nativewind/builds/ff8fdf64-53be-4a69-8902-c13cc2939e11)
 
-**Video Drive Link**: https://drive.google.com/drive/folders/1FtOvPjwg57kVoNgxmV76k2UlUdGKs5oE
+This APK is built using EAS Build and is ready for installation on Android devices. Enable "Install from Unknown Sources" in your Android settings to install the APK. 
 
-This APK is built using EAS Build and is ready for installation on Android devices. Enable "Install from Unknown Sources" in your Android settings to install the APK.
+# Video of DoIt App
+
+**Drive Link**: https://drive.google.com/drive/folders/1AQTSWt-SLeFcGFYLEBr4OhiFpxrSFzFy
 
 ## Features
 
@@ -181,8 +187,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-**This project is a part of a hackathon run by [https://www.katomaran.com](https://www.katomaran.com)**
-
 ## Assumptions Made
 
 1. **User Authentication**: Assumed the app requires user authentication for task management
@@ -196,4 +200,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 9. **Profile Management**: Assumed users need profile customization options
 10. **Build Process**: Assumed cloud-based build process using EAS for easier deployment
 #
+
 
