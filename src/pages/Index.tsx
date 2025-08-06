@@ -1,14 +1,32 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import { useState } from "react";
+import Welcome from "@/components/Welcome";
+import Auth from "@/components/Auth";
+import Dashboard from "@/components/Dashboard";
+
+type AppState = 'welcome' | 'auth' | 'dashboard';
 
 const Index = () => {
-  return (
-    <div className="min-h-screen flex items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
-      </div>
-    </div>
-  );
+  const [appState, setAppState] = useState<AppState>('welcome');
+
+  const renderCurrentView = () => {
+    switch (appState) {
+      case 'welcome':
+        return <Welcome onGetStarted={() => setAppState('auth')} />;
+      case 'auth':
+        return (
+          <Auth 
+            onBack={() => setAppState('welcome')} 
+            onLogin={() => setAppState('dashboard')} 
+          />
+        );
+      case 'dashboard':
+        return <Dashboard />;
+      default:
+        return <Welcome onGetStarted={() => setAppState('auth')} />;
+    }
+  };
+
+  return renderCurrentView();
 };
 
 export default Index;

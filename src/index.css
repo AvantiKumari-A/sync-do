@@ -17,26 +17,35 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 281 100% 72%;
+    --primary-foreground: 0 0% 100%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 280 100% 95%;
+    --secondary-foreground: 281 100% 30%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 280 20% 96%;
+    --muted-foreground: 280 10% 45%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 285 100% 85%;
+    --accent-foreground: 281 100% 30%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 280 20% 90%;
+    --input: 280 20% 95%;
+    --ring: 281 100% 72%;
 
-    --radius: 0.5rem;
+    --radius: 1rem;
+
+    /* Task Buddy specific colors */
+    --gradient-primary: linear-gradient(135deg, hsl(281 100% 72%), hsl(285 100% 85%));
+    --gradient-card: linear-gradient(135deg, hsl(280 100% 98%), hsl(285 100% 96%));
+    --shadow-purple: 0 10px 30px -10px hsl(281 100% 72% / 0.3);
+    --task-urgent: 0 84% 60%;
+    --task-high: 25 95% 53%;
+    --task-medium: 48 96% 53%;
+    --task-low: 142 71% 45%;
 
     --sidebar-background: 0 0% 98%;
 
