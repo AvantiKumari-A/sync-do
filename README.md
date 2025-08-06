@@ -2,6 +2,14 @@
 
 A modern React Native task management application built with Expo, featuring a beautiful UI and intuitive user experience.
 
+# 📱 Download APK
+
+**Latest APK Build**: Download TodoAppMobile.apk
+
+**Video Drive Link**: https://drive.google.com/drive/folders/1FtOvPjwg57kVoNgxmV76k2UlUdGKs5oE
+
+This APK is built using EAS Build and is ready for installation on Android devices. Enable "Install from Unknown Sources" in your Android settings to install the APK.
+
 ## Features
 
 - 📱 Cross-platform mobile app (iOS & Android)
@@ -188,3 +196,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 9. **Profile Management**: Assumed users need profile customization options
 10. **Build Process**: Assumed cloud-based build process using EAS for easier deployment
 #
+
