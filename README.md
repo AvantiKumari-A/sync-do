@@ -2,6 +2,8 @@
 
 ## Project info
 
+**This project is a part of a hackathon run by** https://www.katomaran.com
+
 **URL**: https://lovable.dev/projects/080b0590-6909-4bca-b6b9-20f91e72b861
 
 ## How can I edit this code?
